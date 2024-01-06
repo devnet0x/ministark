@@ -1,7 +1,7 @@
 [package]
 name = "ministark-gpu"
-repository = "https://github.com/andrewmilson/ministark"
-homepage = "https://github.com/andrewmilson/ministark/tree/main/gpu-poly"
+repository = "https://github.com/devnet0x/ministark"
+homepage = "https://github.com/devnet0x/ministark/tree/main/gpu-poly"
 description = "GPU optimized primitives commonly used by STARK/SNARK provers"
 keywords = ["gpu", "snark", "stark", "arkworks", "winterfell"]
 categories = ["cryptography"]
