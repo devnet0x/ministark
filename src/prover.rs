@@ -19,7 +19,7 @@ use alloc::vec::Vec;
 use ark_ff::Field;
 use ark_poly::EvaluationDomain;
 use ministark_gpu::utils::bit_reverse;
-use std::time::Instant;
+//use std::time::Instant;
 
 #[allow(clippy::too_many_lines)]
 pub fn default_prove<S: Stark>(
