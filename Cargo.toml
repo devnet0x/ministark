@@ -44,6 +44,9 @@ rand = "0.8"
 snafu = { version = "0.7", default-features = false }
 rayon = { version = "1.5", optional = true }
 
+wasm-timer = "0.2.5"
+web-sys = { version = "0.3.55", features = ["console",] }
+
 [dev-dependencies]
 criterion = "0.4"
 structopt = "0.3"
@@ -51,8 +54,6 @@ sha3 = "0.10"
 num-bigint = "0.4"
 num-integer = "0.1"
 pollster = "0.2"
-wasm-timer = "0.2.5"
-web-sys = { version = "0.3.55", features = ["console",] }
 
 # taken from https://github.com/recmo/uint
 # Compilation profile for any non-workspace member.
